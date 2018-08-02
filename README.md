@@ -1,10 +1,10 @@
 # Magneto is looking for missing mutants
    
-   Magento ADN tool analyzer 
+   Magneto ADN tool analyzer 
 
 
 ## Purpose
-  Find all mutant living araund the world
+Find any mutant living around the world
 
 ## Stack
 ```sh
@@ -45,7 +45,7 @@ NodeJs, ExpressJS, MongoDb, NGINX, Redis, AWS Cloud, Ubuntu Server , REST API St
         Stats
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5000/stats" >http://mutants-dna.dsupport2000.com:5000/stats</a>
-              <br/>v
+              <br/>
         </div>
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5001/stats" >http://mutants-dna.dsupport2000.com:5001/stats</a>
@@ -91,13 +91,14 @@ cfea3ca96160        mutantsdna_server2        "pm2-dev server/se..."   About an 
 
 ```
 
-### Execute test suite
+### Run the test suite
 ```sh
 npm install 
 npm run test --coverage
 ```
     
-### Adding data 
+### Adding and verifying dnas 
+('adn' is the object key)
 ```sh
 curl --header "Content-Type: application/json" \
   --request POST \
