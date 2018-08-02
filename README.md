@@ -8,7 +8,7 @@ Find any mutant living around the world
 
 ## Stack
 ```sh
-NodeJs, ExpressJS, MongoDb, NGINX, Redis, AWS Cloud, Ubuntu Server , REST API Standar
+NodeJs, ExpressJS, MongoDb, NGINX, Redis, AWS Cloud, Ubuntu Server , REST API Standar, docker , docker-compose
 ```
 
 ![alt text](picture.png)
