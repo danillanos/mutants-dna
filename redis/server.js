@@ -20,7 +20,7 @@ app.get('/stats', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  return res.send('Hi there 1');
+  return res.send('Mutants redis cache server');
 });
 
 app.get('/test', (req, res) => {
