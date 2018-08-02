@@ -1,0 +1,5 @@
+apps:
+  - script   : './server/server.js'
+    name     : 'Magento API'
+    exec_mode: 'cluster'
+    instances: 'max'
