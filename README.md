@@ -1,10 +1,10 @@
-# Magento is looking for missing mutants
+# Magneto is looking for missing mutants
    
    Magento ADN tool analyzer 
 
 
 ## Purpose
-  Get all mutant living araund the world
+  Find all mutant living araund the world
 
 ## Stack
 ```sh
@@ -17,9 +17,10 @@ NodeJs, ExpressJS, MongoDb, NGINX, Redis, AWS Cloud, Ubuntu Server , REST API St
 
   #### A cluster with a load balancer.
   
-   1  <a href="https://github.com/danillanos/mutants-dna/blob/master/config/nginx/nginx.conf#L14-L20">NGINX</a> server as a load balancer and first cache level for  <b>/stats</b> end point
+   1  <a href="https://github.com/danillanos/mutants-dna/blob/master/config/nginx/nginx.conf#L14-L20">NGINX</a> server as a load balancer and first cache level for  <b>/stats</b> endpoint
           <div> 
             <a href="http://mutants-dna.dsupport2000.com/mutants" >http://mutants-dna.dsupport2000.com/mutants</a>
+            <br/>
           </div>
           <div> 
             <a href="http://mutants-dna.dsupport2000.com/stats" >http://mutants-dna.dsupport2000.com/stats</a>
@@ -31,9 +32,11 @@ NodeJs, ExpressJS, MongoDb, NGINX, Redis, AWS Cloud, Ubuntu Server , REST API St
         Mutants
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5000/mutants" >http://mutants-dna.dsupport2000.com:5000/mutants</a>
+            <br/>
         </div>
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5001/mutants" >http://mutants-dna.dsupport2000.com:5001/mutants</a>
+            <br/>
         </div>
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5002/mutants" >http://mutants-dna.dsupport2000.com:5002/mutants</a>
@@ -42,9 +45,11 @@ NodeJs, ExpressJS, MongoDb, NGINX, Redis, AWS Cloud, Ubuntu Server , REST API St
         Stats
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5000/stats" >http://mutants-dna.dsupport2000.com:5000/stats</a>
+              <br/>v
         </div>
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5001/stats" >http://mutants-dna.dsupport2000.com:5001/stats</a>
+              <br/>
         </div>
         <div> 
             <a href="http://mutants-dna.dsupport2000.com:5002/stats" >http://mutants-dna.dsupport2000.com:5002/stats</a>
