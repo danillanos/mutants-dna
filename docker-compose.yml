@@ -27,6 +27,19 @@ services:
     volumes:
       - .:/home/nodejs/app
       - /home/nodejs/app/node_modules
+  server3:
+    build: .
+    command: pm2-dev server/server.js
+    environment:
+      NODE_ENV: development
+      NODE_APP_INSTANCE: ''
+    depends_on:
+      - mongodb
+    ports:
+      - "5002:5000"
+    volumes:
+      - .:/home/nodejs/app
+      - /home/nodejs/app/node_modules    
 
   nginx:
     image: nginx:1.13.11
