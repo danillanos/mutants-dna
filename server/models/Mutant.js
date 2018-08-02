@@ -79,7 +79,7 @@ mutantSchema.statics = {
       let stats = {
         "count_mutant_dna":Mutants,
         "count_human_dna":Humans,
-        "ratio":(Humans / Mutants)
+        "ratio":(Mutants / Humans)
       }
 
        if (stats) {
